@@ -10,6 +10,10 @@ function notas($n1, $n2){
     }
 }
 
-$resultado = notas(8,10);
-
-echo "O aluno foi $resultado";
+$resultado = notas(9,10);
+if($resultado == true){
+    echo "O aluno foi aprovado";
+}
+else{
+    echo "O aluno foi reprovado";
+}
